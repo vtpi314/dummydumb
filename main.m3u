@@ -40,9 +40,11 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT HABER.tr" tvg-logo="http://assets.tvcdn.net/ecbd3154-e8e7-44d7-bcbd-a9bcac9df4de.png" group-title="Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="SÖZCÜ TV.tr" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV
-https://szctvdvr.blutv.com/blutv_szctv_dvr/live.m3u8
+https://gknnowtv.onrender.com/sozcu.m3u8
+#EXTINF:-1 tvg-id="SÖZCÜ TV.tr" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
+http://185.234.111.229:8000/play/a00y
 #EXTINF:-1 tvg-id="TELE 1.tr" tvg-logo="http://assets.tvcdn.net/c3a805dd-2d39-47a8-8b49-a8139bdbeeeb.png" group-title="Haber",Tele 1
-https://live.artidijitalmedya.com/artidijital_kanal16/kanal16/chunks.m3u8
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 tvg-id="HALK TV.tr" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 tvg-id="HABERTURK.tr" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="Haber",Habertürk
@@ -60,9 +62,11 @@ https://tgn.bozztv.com/trn03/gt-krttv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ÜLKETV.tr" tvg-logo="http://assets.tvcdn.net/e20947de-9a22-4e53-9f88-b69cdf278be7.png" group-title="Haber",Ülke TV
 https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
 #EXTINF:-1 tvg-id="AHABER.tr" tvg-logo="http://assets.tvcdn.net/06e7abd9-0fbb-441f-af63-b895513d3aaa.png" group-title="Haber",A Haber
-https://new.cache-stream.workers.dev/stream/UCKQhfw-lzz0uKnE1fY1PsAA/live.m3u8
+https://gknnowtv.onrender.com/ahaber.m3u8
 #EXTINF:-1 tvg-id="CNN TURK.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="Haber",CNN Türk
 http://185.234.111.229:8000/play/a01r
+#EXTINF:-1 tvg-id="CNN TURK.tr" tvg-logo="http://assets.tvcdn.net/db0e3f2f-3191-4af2-9cde-5345eb7543e4.png" group-title="Haber",CNN Türk - Yedek
+https://gknnowtv.onrender.com/cnnturk.m3u8
 #EXTINF:-1 tvg-id="NTV.tr" tvg-logo="http://assets.tvcdn.net/b2aa3114-53bd-4ff5-81ed-af75a28e651f.png" group-title="Haber",NTV
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/ntv.m3u8
 #EXTINF:-1 tvg-id="24TV.tr" tvg-logo="http://assets.tvcdn.net/49267a8f-6313-43f9-bab4-9d5f109bad1b.png" group-title="Haber",24 TV
@@ -72,7 +76,7 @@ http://akittv-live.ercdn.net/akittv/akittv.m3u8
 #EXTINF:-1 tvg-id="TVNET.tr" tvg-logo="http://assets.tvcdn.net/542d8afd-1bf7-44bd-8dfe-0b8e9ea2d3ec.png" group-title="Haber",TVNET
 https://mn-nl.mncdn.com/tvnet/tvnet/chunklist.m3u8
 #EXTINF:-1 tvg-id="FLASH HABER.tr" tvg-logo="http://assets.tvcdn.net/d609d4ce-df23-4042-8537-460dc6d4ae18.png" group-title="Haber",Flash Haber
-https://internettv.guventechnology.com:19360/flashhabertv/flashhabertv.m3u8
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8
 #EXTINF:-1 tvg-id="ULUSAL TV.tr" tvg-logo="http://assets.tvcdn.net/1762dbd7-b2a4-497d-9cf0-3ecd075cf578.png" group-title="Haber",Ulusal Kanal
 https://internettv.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8
 #EXTINF:-1 tvg-id="BENGÜTÜRK.tr" tvg-logo="http://assets.tvcdn.net/a8fd43de-872a-4e58-9f07-ff22d21a6c24.png" group-title="Haber",Bengütürk TV
@@ -114,7 +118,7 @@ http://stream.tvcdn.net/eglence/tarih-tv.m3u8
 #EXTVLCOPT:http-referrer=https://twitter.com/
 https://r14.cf1-b11.workers.dev/static/bs1.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="beIN Sports 1 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 1 HD
-http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/1735
+https://gknnowtv.onrender.com/bein1.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="beIN Sports 1 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 1 HD
 https://kapkara.space/cdn/bein_sports_1_hd/main.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="beIN Sports 1 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 1 HD
@@ -136,7 +140,7 @@ https://kapkara.space/cdn/bein_sports_2_hd/main.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 2.tr" tvg-name="beIN Sports 2 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 2 HD
 https://217.30.11.74/e/6575.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 2.tr" tvg-name="beIN Sports 2 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 2 HD
-http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/1737
+https://gknnowtv.onrender.com/bein2.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 3.tr" tvg-name="beIN Sports 3 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 3 HD
 https://kapkara.space/cdn/bein_sports_3_hd/main.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 3.tr" tvg-name="Bein Sports 3" tvg-logo="https://m.prectv37.sbs/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png" group-title="🇹🇷 Spor - Bein", Bein Sports 3 (Kaynak 1) - RECTV
@@ -148,11 +152,11 @@ https://r14.cf1-b11.workers.dev/static/bs3.m3u8
 #EXTVLCOPT:http-referrer=https://twitter.com/
 https://r14.cf1-b11.workers.dev/list/yayinb3.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 3.tr" tvg-name="beIN Sports 3 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 3 HD
-http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/1739
+https://gknnowtv.onrender.com/bein3.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 4.tr" tvg-name="beIN Sports 4 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 4 HD
 https://kapkara.space/cdn/bein_sports_4_hd/main.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 4.tr" tvg-name="beIN Sports 4 HD" tvg-logo="https://i.hizliresim.com/5j967nr.png" group-title="🇹🇷 Spor - Bein",beIN Sports 4 HD
-http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/7450
+https://gknnowtv.onrender.com/bein4.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 4.tr" tvg-name="Bein Sports 4" tvg-logo="https://m.prectv37.sbs/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png" group-title="🇹🇷 Spor - Bein", Bein Sports 4 (Kaynak 1) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
@@ -955,7 +959,7 @@ https://szctvdvr.blutv.com/blutv_szctv_dvr/live.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wdwm0fn/haberturk.png" group-title="🇹🇷 HABER",HABER TÜRK
 https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4Mhmggc/tele1.png" group-title="🇹🇷 HABER",TELE 1
-https://tele1.blutv.com/blutv_tele1_live/live.m3u8
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/k58p7P2/hglobal.png" group-title="🇹🇷 HABER",HABER GLOBAL
 https://ensonhaber-live.ercdn.net/haberglobal/haberglobal.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BtYMK4q/halk21a.png" group-title="🇹🇷 HABER",HALK TV
