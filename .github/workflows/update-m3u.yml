@@ -20,12 +20,12 @@ jobs:
         run: pip install yt-dlp
 
       - name: Run update script
-        run: python update_m3u.py
+        run: python sozcu_yt.py
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u
+          git add main.m3u
           git diff --cached --quiet || git commit -m "Sözcü TV M3U Güncellendi."
           git push
