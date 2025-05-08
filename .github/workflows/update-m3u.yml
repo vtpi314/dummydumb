@@ -8,6 +8,8 @@ on:
 jobs:
   update-m3u:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -28,4 +30,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add main.m3u
           git diff --cached --quiet || git commit -m "Sözcü TV M3U Güncellendi."
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
