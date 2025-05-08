@@ -60,7 +60,7 @@ def update_channel_url_in_m3u(m3u8_url):
             new_lines.append(line)
             
             # Check if this is the target channel line
-            if line.startswith("#EXTINF") and TARGET_CHANNEL_NAME in line:
+            if line.startswith("#EXTINF") and line.strip().endswith(TARGET_CHANNEL_NAME):
                 found = True
                 # Next line is the URL, replace it
                 i += 1
