@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="TRT 1.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="FOX.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="Ulusal",Now TV
-http://cdn.admuspeh.my/8820/video.m3u8?token=N6oNwfmuvuPbGDcG
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-id="FOX.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="Ulusal",Now TV - Y
 http://ip1.orgip.net/5501/video.m3u8?token=A3b61a999e
 #EXTINF:-1 tvg-id="FOX.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="Ulusal",Now TV - RECTV
@@ -10,7 +10,7 @@ http://ip1.orgip.net/5501/video.m3u8?token=A3b61a999e
 #EXTVLCOPT:http-referrer=https://twitter.com/
 https://tv.arectv29.sbs/live/foxtv.m3u8
 #EXTINF:-1 tvg-id="FOX.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="Ulusal",Now TV - Y
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+http://cdn.admuspeh.my/8820/video.m3u8?token=N6oNwfmuvuPbGDcG
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="Ulusal",atv
 http://89.187.191.41/ATV-HD-TR/video.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="Ulusal",atv - Y
@@ -105,11 +105,11 @@ https://dogus-live.daioncdn.net/dmax/dmax.m3u8
 https://tlc.blutv.com/blutv_tlc_live/live.m3u8
 #EXTINF:-1 tvg-name="TARİH TV" tvg-id="" tvg-logo="" group-title="Eğlence",TARİH TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
-https://tv.arectv29.sbs/live/tarihtv.m3u8
+https://tv1.arectv30.sbs/live/tarihtv.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="Bein Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 1 (Kaynak 1) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://r14.cf2-af9.workers.dev/static/bs1.m3u8
+https://r14.af92.workers.dev/static/bs1.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="beIN Sports 1 HD" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png" group-title="🇹🇷 Spor - Bein",beIN Sports 1 HD
 https://gknnowtv.onrender.com/bein1.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="Bein Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 1 (Kaynak 2) - RECTV
@@ -119,11 +119,11 @@ https://217.30.11.74/e/6570.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 2.tr" tvg-name="Bein Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 2 (Kaynak 1) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://r14.cf2-af9.workers.dev/static/bs2.m3u8
+https://r14.af92.workers.dev/static/bs2.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 2.tr" tvg-name="Bein Sports 2" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 2 (Kaynak 2) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://r14.cf2-af9.workers.dev/list/yayinb2.m3u8
+https://r14.af92.workers.dev/list/yayinb2.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 2.tr" tvg-name="beIN Sports 2 HD" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_2_Australia.png" group-title="🇹🇷 Spor - Bein",beIN Sports 2 HD
 https://217.30.11.74/e/6575.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 2.tr" tvg-name="beIN Sports 2 HD" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_2_Australia.png" group-title="🇹🇷 Spor - Bein",beIN Sports 2 HD
@@ -133,11 +133,11 @@ https://kapkara.space/cdn/bein_sports_3_hd/main.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 3.tr" tvg-name="Bein Sports 3" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_3_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 3 (Kaynak 1) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://r14.cf2-af9.workers.dev/static/bs3.m3u8
+https://r14.af92.workers.dev/static/bs3.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 3.tr" tvg-name="Bein Sports 3" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_3_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 3 (Kaynak 2) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://r14.cf2-af9.workers.dev/list/yayinb3.m3u8
+https://r14.af92.workers.dev/list/yayinb3.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 3.tr" tvg-name="beIN Sports 3 HD" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_3_Australia.png" group-title="🇹🇷 Spor - Bein",beIN Sports 3 HD
 https://gknnowtv.onrender.com/bein3.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 4.tr" tvg-name="beIN Sports 4 HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/BS4.svg/revision/latest/smart/width/386/height/259" group-title="🇹🇷 Spor - Bein",beIN Sports 4 HD
@@ -145,13 +145,9 @@ https://gknnowtv.onrender.com/bein4.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 4.tr" tvg-name="Bein Sports 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/BS4.svg/revision/latest/smart/width/386/height/259" group-title="🇹🇷 Spor - Bein", Bein Sports 4 (Kaynak 1) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
-https://r14.cf2-af9.workers.dev/static/bs4.m3u8
-#EXTINF:-1 tvg-id="beIN SPORTS 4.tr" tvg-name="Bein Sports 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/BS4.svg/revision/latest/smart/width/386/height/259" group-title="🇹🇷 Spor - Bein", Bein Sports 4 (Kaynak 2) - RECTV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://r14.cf2-af9.workers.dev/list/yayinb4.m3u8
+https://r14.af92.workers.dev/static/bs4.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 5.tr" tvg-name="beIN Sports 5 HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/BS5.svg/revision/latest/smart/width/386/height/259?cb=20200107204133" group-title="🇹🇷 Spor - Bein",beIN Sports 5 HD
-https://r14.cf2-af9.workers.dev/static/bs5.m3u8
+https://r14.af92.workers.dev/static/bs5.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS MAX 1.tr" tvg-name="beIN Sports MAX 1 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPoV-K9-Kv9L1nBPs0ByqrrTRoL8xbrNckeA&s" group-title="🇹🇷 Spor - Bein",beIN Sports MAX 1 HD
 https://tv2.arectv30.sbs/static/bm1.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS MAX 2.tr" tvg-name="beIN Sports MAX 2 HD" tvg-logo="https://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568" group-title="🇹🇷 Spor - Bein",beIN Sports MAX 2 HD
