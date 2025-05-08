@@ -1,0 +1,31 @@
+name: Update Sözcü TV m3u link
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # every 10 minutes
+  workflow_dispatch:
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install yt-dlp
+        run: pip install yt-dlp
+
+      - name: Run update script
+        run: python update_m3u.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u
+          git diff --cached --quiet || git commit -m "Sözcü TV M3U Güncellendi."
+          git push
