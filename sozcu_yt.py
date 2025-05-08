@@ -12,6 +12,7 @@ def get_m3u8_url():
     # Create command array
     cmd = [
         ytdlp_cmd,
+        "--cookies", "cookies.txt",
         "-g",
         "-f", "best",
         CHANNEL_URL
