@@ -2,7 +2,7 @@ name: Update Sözcü TV m3u link
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # every 10 minutes
+    - cron: '*/45 * * * *'  # every 45 minutes
   workflow_dispatch:
 
 jobs:
@@ -20,6 +20,9 @@ jobs:
 
       - name: Install yt-dlp
         run: pip install yt-dlp
+
+      - name: Write cookies.txt
+        run: echo "${{ secrets.YT_COOKIES }}" > cookies.txt
 
       - name: Run update script
         run: python sozcu_yt.py
