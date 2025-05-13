@@ -141,15 +141,15 @@ https://r14.af94.workers.dev/static/bs4.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS 5.tr" tvg-name="beIN Sports 5 HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/BS5.svg/revision/latest/smart/width/386/height/259?cb=20200107204133" group-title="🇹🇷 Spor - Bein",beIN Sports 5 HD
 https://r14.af94.workers.dev/static/bs5.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS MAX 1.tr" tvg-name="beIN Sports MAX 1 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPoV-K9-Kv9L1nBPs0ByqrrTRoL8xbrNckeA&s" group-title="🇹🇷 Spor - Bein",beIN Sports MAX 1 HD
-https://tv2.arectv30.sbs/static/bm1.m3u8
+https://tv1.arectv30.sbs/live/bm1.m3u8
 #EXTINF:-1 tvg-id="beIN SPORTS MAX 2.tr" tvg-name="beIN Sports MAX 2 HD" tvg-logo="https://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568" group-title="🇹🇷 Spor - Bein",beIN Sports MAX 2 HD
-https://tv2.arectv30.sbs/static/bm2.m3u8
+https://tv1.arectv30.sbs/live/bm2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tivibu Sport 1 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230125889178.png" group-title="🇹🇷 Spor - Bein",Tivibu Sport 1 HD
-https://tv2.arectv30.sbs/static/t1.m3u8
+https://tv1.arectv30.sbs/live/t1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tivibu Sport 2 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230125889043.png" group-title="🇹🇷 Spor - Bein",Tivibu Sport 2 HD
-https://tv2.arectv30.sbs/static/t2.m3u8
+https://tv1.arectv30.sbs/live/t2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tivibu Sport 3 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230125889044.png" group-title="🇹🇷 Spor - Bein",Tivibu Sport 3 HD
-https://tv2.arectv30.sbs/static/t3.m3u8
+https://tv1.arectv30.sbs/live/t3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tivibu Sport 4 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230125888743.png" group-title="🇹🇷 Spor - Bein",Tivibu Sport 4 HD
 https://tv1.arectv30.sbs/live/t4.m3u8
 #EXTINF:-1 xui-id="" tvg-name="S Sport 1 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230302923239.png" group-title="🇹🇷 Spor - Bein",S Sport 1 HD
