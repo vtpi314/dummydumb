@@ -153,9 +153,9 @@ https://tv1.arectv30.sbs/live/t3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tivibu Sport 4 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230125888743.png" group-title="🇹🇷 Spor - Bein",Tivibu Sport 4 HD
 https://tv1.arectv30.sbs/live/t4.m3u8
 #EXTINF:-1 xui-id="" tvg-name="S Sport 1 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230302923239.png" group-title="🇹🇷 Spor - Bein",S Sport 1 HD
-https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/playlist.m3u8
+https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="S Sport 2 HD" tvg-logo="https://itv224226.tmp.tivibu.com.6430/images/poster/20230302923321.png" group-title="🇹🇷 Spor - Bein",S Sport 2 HD
-https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/playlist.m3u8
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 #EXTINF:-1 xui-id="" tvg-name="Smart Sport 1 HD" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/sporsmart.png" group-title="🇹🇷 Spor - Bein",Smart Sport 1 HD
 https://cors.nicolasd-winsten.workers.dev/?apiUrl=https://tre.2b4a9bb526bd2acb.shop/i/smart1/102/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Smart Sport 2 HD" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/sporsmart.png" group-title="🇹🇷 Spor - Bein",Smart Sport 2 HD
