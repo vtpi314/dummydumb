@@ -9,7 +9,8 @@ env:
   SOURCE_M3U_URL: "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/master/NeonSpor/NeonSpor.m3u8"
   DESTINATION_M3U_FILE: "main.m3u"
   NEW_GROUP_TITLE: "Spor - Maç"
-  MERGE_MARKER: "# NEON"
+  START_MARKER: "# NEON_START"
+  END_MARKER: "# NEON_END"
 
 jobs:
   merge-playlist:
@@ -31,44 +32,57 @@ jobs:
           import os
           import re
 
-          # --- Configuration from Environment Variables ---
           dest_file = os.getenv('DESTINATION_M3U_FILE')
           remote_file = 'external_playlist.m3u'
           new_group_title = os.getenv('NEW_GROUP_TITLE')
-          merge_marker = os.getenv('MERGE_MARKER')
+          start_marker = os.getenv('START_MARKER')
+          end_marker = os.getenv('END_MARKER')
 
-          # --- Read existing destination file and find unique URLs ---
+          # --- Read the destination file and separate it into three parts ---
+          content_before = []
+          content_after = []
           existing_urls = set()
-          dest_content_before_marker = []
-          dest_content_after_marker = []
-          marker_found = False
+          markers_found = False
+          
+          parsing_state = 'before' # Can be 'before', 'between', or 'after'
 
           try:
               with open(dest_file, 'r', encoding='utf-8') as f:
                   for line in f:
-                      if line.strip() == merge_marker:
-                          marker_found = True
-                          continue # Skip the marker line itself
+                      stripped_line = line.strip()
+                      if stripped_line == start_marker:
+                          parsing_state = 'between'
+                          continue # Don't include the marker itself yet
+                      elif stripped_line == end_marker:
+                          parsing_state = 'after'
+                          continue # Don't include the marker itself yet
 
-                      if marker_found:
-                          dest_content_after_marker.append(line)
-                      else:
-                          dest_content_before_marker.append(line)
-
-                      # Add URL to the set to track duplicates
-                      if not line.startswith('#'):
-                          existing_urls.add(line.strip())
+                      if parsing_state == 'before':
+                          content_before.append(line)
+                          if not line.startswith('#'):
+                              existing_urls.add(stripped_line)
+                      elif parsing_state == 'after':
+                          content_after.append(line)
+                          if not line.startswith('#'):
+                              existing_urls.add(stripped_line)
+              
+              # Check if we found both markers during parsing
+              if parsing_state == 'after':
+                  markers_found = True
+                  print("Found start and end markers. Will replace content between them.")
+              else:
+                  # If we didn't find both markers, we'll append.
+                  # Reset content_before to the whole file content.
+                  with open(dest_file, 'r', encoding='utf-8') as f:
+                      content_before = f.readlines()
+                  print("Markers not found or incomplete. Will append to the end of the file.")
 
           except FileNotFoundError:
               print(f"Destination file '{dest_file}' not found. Will be created.")
-              # If file doesn't exist, ensure it starts with the M3U header
-              dest_content_before_marker.append('#EXTM3U\n')
-
-          if not marker_found:
-              print(f"Merge marker '{merge_marker}' not found. Appending to end of file.")
+              content_before.append('#EXTM3U\n')
 
           # --- Process the remote file ---
-          new_entries = []
+          new_remote_entries = []
           try:
               with open(remote_file, 'r', encoding='utf-8') as f:
                   lines = f.readlines()
@@ -84,36 +98,39 @@ jobs:
                   i += 1
                   if i < len(lines):
                       url = lines[i].strip()
-                      # Process only if the URL is new
+                      # Add only if the URL is not in the 'before' or 'after' sections
                       if url and url not in existing_urls:
-                          existing_urls.add(url)
-
-                          # Modify or add the group-title attribute
                           group_title_pattern = re.compile(r'group-title="[^"]*"')
                           new_attribute = f'group-title="{new_group_title}"'
-
                           if group_title_pattern.search(extinf):
                               modified_extinf = group_title_pattern.sub(new_attribute, extinf)
                           else:
-                              # Insert the attribute before the final comma
                               parts = extinf.rsplit(',', 1)
                               modified_extinf = f'{parts[0]} {new_attribute},{parts[1]}'
-
-                          new_entries.append(f"{modified_extinf}\n{url}\n")
+                          new_remote_entries.append(f"{modified_extinf}\n{url}\n")
               i += 1
 
-          print(f"Found {len(new_entries)} new unique channels to add.")
+          print(f"Found {len(new_remote_entries)} new unique channels to add.")
 
-          # --- Combine and write the final file ---
-          if new_entries:
+          # --- Assemble and write the final file ---
+          if new_remote_entries:
               with open(dest_file, 'w', encoding='utf-8') as f:
-                  f.writelines(dest_content_before_marker)
-                  # Add a newline before new entries if the previous part didn't have one
-                  if dest_content_before_marker and not dest_content_before_marker[-1].endswith('\n'):
+                  # Write the content that was before the marker
+                  f.writelines(content_before)
+                  
+                  # Ensure there's a newline before the start marker
+                  if content_before and not content_before[-1].endswith('\n'):
                       f.write('\n')
-                  f.writelines(new_entries)
-                  f.writelines(dest_content_after_marker)
-              print(f"Successfully merged playlist into '{dest_file}'.")
+                  
+                  # Write the managed block
+                  f.write(f"{start_marker}\n")
+                  f.writelines(new_remote_entries)
+                  f.write(f"{end_marker}\n")
+
+                  # Write the content that was after the marker
+                  f.writelines(content_after)
+              
+              print(f"Successfully rebuilt playlist '{dest_file}'.")
           else:
               print("No new channels to add. File remains unchanged.")
           EOF
@@ -121,7 +138,7 @@ jobs:
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: Update M3U playlist with new channels"
+          commit_message: "Spor category updated"
           file_pattern: ${{ env.DESTINATION_M3U_FILE }}
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
