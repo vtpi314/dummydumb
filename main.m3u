@@ -99,6 +99,8 @@ https://tlc.blutv.com/blutv_tlc_live/live.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://tv.arectv19.sbs/live/tarihtv.m3u8
 
+# NEON_START
+
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 1 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 1 Yedek
@@ -135,6 +137,8 @@ https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8
 https://trkvz-live.ercdn.net/atvhd/atvhd.m3u8
 #EXTINF:-1 tvg-name="A Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="aspor" tvg-logo="https://bursasporxcom.teimg.com/crop/1280x720/bursasporx-com/uploads/2024/10/imaj-aspor.jpg" group-title="Spor - Maç", A Spor
 https://trkvz.daioncdn.net/aspor/aspor_1080p.m3u8?e=1746716002&st=cfG87Zqu29pdz1rkhSnMaw&sid=7e1fssngf2i3&app=b6bf3b55-0120-4e0f-983b-a6c7969f9ec6&ce=3
+
+# NEON_END
 
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="Bein Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 1 (Kaynak 1) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
