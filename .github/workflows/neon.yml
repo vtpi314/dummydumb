@@ -13,7 +13,7 @@ env:
   END_MARKER: "# NEON_END"
 
 jobs:
-  merge-playlist:
+  sync-playlist-block:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -26,7 +26,7 @@ jobs:
           curl -L -o external_playlist.m3u "${{ env.SOURCE_M3U_URL }}"
           echo "External M3U file downloaded."
 
-      - name: Merge, Modify, and De-duplicate Playlists
+      - name: Rebuild Remote Content Block
         run: |
           python3 <<'EOF'
           import os
@@ -38,13 +38,10 @@ jobs:
           start_marker = os.getenv('START_MARKER')
           end_marker = os.getenv('END_MARKER')
 
-          # --- Read the destination file and separate it into three parts ---
+          # --- Step 1: Read the local file and separate content ---
           content_before = []
           content_after = []
-          existing_urls = set()
-          markers_found = False
-          
-          parsing_state = 'before' # Can be 'before', 'between', or 'after'
+          parsing_state = 'before' # States: 'before', 'between', 'after'
 
           try:
               with open(dest_file, 'r', encoding='utf-8') as f:
@@ -52,42 +49,33 @@ jobs:
                       stripped_line = line.strip()
                       if stripped_line == start_marker:
                           parsing_state = 'between'
-                          continue # Don't include the marker itself yet
+                          continue
                       elif stripped_line == end_marker:
                           parsing_state = 'after'
-                          continue # Don't include the marker itself yet
-
+                          continue
+                      
                       if parsing_state == 'before':
                           content_before.append(line)
-                          if not line.startswith('#'):
-                              existing_urls.add(stripped_line)
                       elif parsing_state == 'after':
                           content_after.append(line)
-                          if not line.startswith('#'):
-                              existing_urls.add(stripped_line)
               
-              # Check if we found both markers during parsing
-              if parsing_state == 'after':
-                  markers_found = True
-                  print("Found start and end markers. Will replace content between them.")
-              else:
-                  # If we didn't find both markers, we'll append.
-                  # Reset content_before to the whole file content.
+              # If we never switched to 'after', the markers weren't found correctly
+              if parsing_state != 'after':
+                  print(f"Markers not found in '{dest_file}'. Will create them at the end.")
+                  # Reset and use the whole file as 'content_before'
                   with open(dest_file, 'r', encoding='utf-8') as f:
                       content_before = f.readlines()
-                  print("Markers not found or incomplete. Will append to the end of the file.")
-
+                  content_after = [] # Nothing comes after
           except FileNotFoundError:
-              print(f"Destination file '{dest_file}' not found. Will be created.")
+              print(f"File '{dest_file}' not found. Will create it with the new content.")
               content_before.append('#EXTM3U\n')
 
-          # --- Process the remote file ---
+          # --- Step 2: Process the entire remote file ---
           new_remote_entries = []
           try:
               with open(remote_file, 'r', encoding='utf-8') as f:
                   lines = f.readlines()
           except FileNotFoundError:
-              print(f"Error: Downloaded remote file '{remote_file}' not found.")
               lines = []
 
           i = 0
@@ -98,47 +86,44 @@ jobs:
                   i += 1
                   if i < len(lines):
                       url = lines[i].strip()
-                      # Add only if the URL is not in the 'before' or 'after' sections
-                      if url and url not in existing_urls:
-                          group_title_pattern = re.compile(r'group-title="[^"]*"')
-                          new_attribute = f'group-title="{new_group_title}"'
-                          if group_title_pattern.search(extinf):
-                              modified_extinf = group_title_pattern.sub(new_attribute, extinf)
-                          else:
-                              parts = extinf.rsplit(',', 1)
-                              modified_extinf = f'{parts[0]} {new_attribute},{parts[1]}'
-                          new_remote_entries.append(f"{modified_extinf}\n{url}\n")
+                      if not url: continue
+
+                      # Modify or add the group-title attribute for every entry
+                      group_title_pattern = re.compile(r'group-title="[^"]*"')
+                      new_attribute = f'group-title="{new_group_title}"'
+                      if group_title_pattern.search(extinf):
+                          modified_extinf = group_title_pattern.sub(new_attribute, extinf)
+                      else:
+                          parts = extinf.rsplit(',', 1)
+                          modified_extinf = f'{parts[0]} {new_attribute},{parts[1]}'
+                      
+                      new_remote_entries.append(f"{modified_extinf}\n{url}\n")
               i += 1
+          
+          print(f"Processed {len(new_remote_entries)} entries from remote source.")
 
-          print(f"Found {len(new_remote_entries)} new unique channels to add.")
+          # --- Step 3: Write the final file from the parts ---
+          with open(dest_file, 'w', encoding='utf-8') as f:
+              # Part 1: Your content from before the block
+              f.writelines(content_before)
+              if content_before and not content_before[-1].endswith('\n'):
+                  f.write('\n')
 
-          # --- Assemble and write the final file ---
-          if new_remote_entries:
-              with open(dest_file, 'w', encoding='utf-8') as f:
-                  # Write the content that was before the marker
-                  f.writelines(content_before)
-                  
-                  # Ensure there's a newline before the start marker
-                  if content_before and not content_before[-1].endswith('\n'):
-                      f.write('\n')
-                  
-                  # Write the managed block
-                  f.write(f"{start_marker}\n")
-                  f.writelines(new_remote_entries)
-                  f.write(f"{end_marker}\n")
+              # Part 2: The new, managed block
+              f.write(f"{start_marker}\n")
+              f.writelines(new_remote_entries)
+              f.write(f"{end_marker}\n")
 
-                  # Write the content that was after the marker
-                  f.writelines(content_after)
-              
-              print(f"Successfully rebuilt playlist '{dest_file}'.")
-          else:
-              print("No new channels to add. File remains unchanged.")
+              # Part 3: Your content from after the block
+              f.writelines(content_after)
+          
+          print(f"Successfully rebuilt the M3U file '{dest_file}'.")
           EOF
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Spor category updated"
+          commit_message: "Update spor category"
           file_pattern: ${{ env.DESTINATION_M3U_FILE }}
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
