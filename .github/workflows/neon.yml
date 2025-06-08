@@ -41,8 +41,7 @@ jobs:
           # --- Step 1: Read the local file and separate content ---
           content_before = []
           content_after = []
-          parsing_state = 'before' # States: 'before', 'between', 'after'
-
+          parsing_state = 'before'
           try:
               with open(dest_file, 'r', encoding='utf-8') as f:
                   for line in f:
@@ -53,24 +52,20 @@ jobs:
                       elif stripped_line == end_marker:
                           parsing_state = 'after'
                           continue
-                      
                       if parsing_state == 'before':
                           content_before.append(line)
                       elif parsing_state == 'after':
                           content_after.append(line)
-              
-              # If we never switched to 'after', the markers weren't found correctly
               if parsing_state != 'after':
                   print(f"Markers not found in '{dest_file}'. Will create them at the end.")
-                  # Reset and use the whole file as 'content_before'
                   with open(dest_file, 'r', encoding='utf-8') as f:
                       content_before = f.readlines()
-                  content_after = [] # Nothing comes after
+                  content_after = []
           except FileNotFoundError:
-              print(f"File '{dest_file}' not found. Will create it with the new content.")
+              print(f"File '{dest_file}' not found. Will create it.")
               content_before.append('#EXTM3U\n')
 
-          # --- Step 2: Process the entire remote file ---
+          # --- Step 2: Process the remote file, preserving multi-line entries ---
           new_remote_entries = []
           try:
               with open(remote_file, 'r', encoding='utf-8') as f:
@@ -80,41 +75,47 @@ jobs:
 
           i = 0
           while i < len(lines):
-              line = lines[i].strip()
-              if line.startswith('#EXTINF:'):
-                  extinf = line
+              line = lines[i]
+              if line.strip().startswith('#EXTINF:'):
+                  # This is the start of a channel block.
+                  entry_block = []
+                  
+                  # Modify the group-title in the #EXTINF line
+                  extinf_line = line.strip()
+                  group_title_pattern = re.compile(r'group-title="[^"]*"')
+                  new_attribute = f'group-title="{new_group_title}"'
+                  if group_title_pattern.search(extinf_line):
+                      modified_extinf = group_title_pattern.sub(new_attribute, extinf_line)
+                  else:
+                      parts = extinf_line.rsplit(',', 1)
+                      modified_extinf = f'{parts[0]} {new_attribute},{parts[1]}'
+                  entry_block.append(modified_extinf + '\n')
+                  
+                  # Advance to the next lines and add them until we find the URL
                   i += 1
-                  if i < len(lines):
-                      url = lines[i].strip()
-                      if not url: continue
-
-                      # Modify or add the group-title attribute for every entry
-                      group_title_pattern = re.compile(r'group-title="[^"]*"')
-                      new_attribute = f'group-title="{new_group_title}"'
-                      if group_title_pattern.search(extinf):
-                          modified_extinf = group_title_pattern.sub(new_attribute, extinf)
-                      else:
-                          parts = extinf.rsplit(',', 1)
-                          modified_extinf = f'{parts[0]} {new_attribute},{parts[1]}'
-                      
-                      new_remote_entries.append(f"{modified_extinf}\n{url}\n")
+                  while i < len(lines):
+                      next_line = lines[i]
+                      entry_block.append(next_line)
+                      if not next_line.strip().startswith('#'):
+                          # This is the URL, so the block is complete.
+                          break
+                      i += 1
+                  
+                  new_remote_entries.extend(entry_block)
               i += 1
           
-          print(f"Processed {len(new_remote_entries)} entries from remote source.")
+          print(f"Processed remote source and prepared new content block.")
 
           # --- Step 3: Write the final file from the parts ---
           with open(dest_file, 'w', encoding='utf-8') as f:
-              # Part 1: Your content from before the block
               f.writelines(content_before)
               if content_before and not content_before[-1].endswith('\n'):
                   f.write('\n')
-
-              # Part 2: The new, managed block
               f.write(f"{start_marker}\n")
               f.writelines(new_remote_entries)
+              if new_remote_entries and not new_remote_entries[-1].endswith('\n'):
+                  f.write('\n')
               f.write(f"{end_marker}\n")
-
-              # Part 3: Your content from after the block
               f.writelines(content_after)
           
           print(f"Successfully rebuilt the M3U file '{dest_file}'.")
