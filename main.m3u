@@ -98,6 +98,9 @@ https://tlc.blutv.com/blutv_tlc_live/live.m3u8
 #EXTINF:-1 tvg-name="TARİH TV" tvg-id="" tvg-logo="" group-title="Eğlence",TARİH TV
 #EXTVLCOPT:http-user-agent=okhttp/4.12.0
 https://tv.arectv19.sbs/live/tarihtv.m3u8
+
+# NEON
+
 #EXTINF:-1 tvg-id="beIN SPORTS 1.tr" tvg-name="Bein Sports 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png" group-title="🇹🇷 Spor - Bein", Bein Sports 1 (Kaynak 1) - RECTV
 #EXTVLCOPT:http-user-agent=googleusercontent
 #EXTVLCOPT:http-referrer=https://twitter.com/
