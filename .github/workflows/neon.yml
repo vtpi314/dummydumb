@@ -1,0 +1,126 @@
+name: NeonSpor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+env:
+  SOURCE_M3U_URL: "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/master/NeonSpor/NeonSpor.m3u8"
+  DESTINATION_M3U_FILE: "main.m3u"
+  NEW_GROUP_TITLE: "Spor - Maç"
+  MERGE_MARKER: "# NEON"
+
+jobs:
+  merge-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download external M3U file
+        run: |
+          curl -L -o external_playlist.m3u "${{ env.SOURCE_M3U_URL }}"
+          echo "External M3U file downloaded."
+
+      - name: Merge, Modify, and De-duplicate Playlists
+        run: |
+          python3 <<'EOF'
+          import os
+          import re
+
+          # --- Configuration from Environment Variables ---
+          dest_file = os.getenv('DESTINATION_M3U_FILE')
+          remote_file = 'external_playlist.m3u'
+          new_group_title = os.getenv('NEW_GROUP_TITLE')
+          merge_marker = os.getenv('MERGE_MARKER')
+
+          # --- Read existing destination file and find unique URLs ---
+          existing_urls = set()
+          dest_content_before_marker = []
+          dest_content_after_marker = []
+          marker_found = False
+
+          try:
+              with open(dest_file, 'r', encoding='utf-8') as f:
+                  for line in f:
+                      if line.strip() == merge_marker:
+                          marker_found = True
+                          continue # Skip the marker line itself
+
+                      if marker_found:
+                          dest_content_after_marker.append(line)
+                      else:
+                          dest_content_before_marker.append(line)
+
+                      # Add URL to the set to track duplicates
+                      if not line.startswith('#'):
+                          existing_urls.add(line.strip())
+
+          except FileNotFoundError:
+              print(f"Destination file '{dest_file}' not found. Will be created.")
+              # If file doesn't exist, ensure it starts with the M3U header
+              dest_content_before_marker.append('#EXTM3U\n')
+
+          if not marker_found:
+              print(f"Merge marker '{merge_marker}' not found. Appending to end of file.")
+
+          # --- Process the remote file ---
+          new_entries = []
+          try:
+              with open(remote_file, 'r', encoding='utf-8') as f:
+                  lines = f.readlines()
+          except FileNotFoundError:
+              print(f"Error: Downloaded remote file '{remote_file}' not found.")
+              lines = []
+
+          i = 0
+          while i < len(lines):
+              line = lines[i].strip()
+              if line.startswith('#EXTINF:'):
+                  extinf = line
+                  i += 1
+                  if i < len(lines):
+                      url = lines[i].strip()
+                      # Process only if the URL is new
+                      if url and url not in existing_urls:
+                          existing_urls.add(url)
+
+                          # Modify or add the group-title attribute
+                          group_title_pattern = re.compile(r'group-title="[^"]*"')
+                          new_attribute = f'group-title="{new_group_title}"'
+
+                          if group_title_pattern.search(extinf):
+                              modified_extinf = group_title_pattern.sub(new_attribute, extinf)
+                          else:
+                              # Insert the attribute before the final comma
+                              parts = extinf.rsplit(',', 1)
+                              modified_extinf = f'{parts[0]} {new_attribute},{parts[1]}'
+
+                          new_entries.append(f"{modified_extinf}\n{url}\n")
+              i += 1
+
+          print(f"Found {len(new_entries)} new unique channels to add.")
+
+          # --- Combine and write the final file ---
+          if new_entries:
+              with open(dest_file, 'w', encoding='utf-8') as f:
+                  f.writelines(dest_content_before_marker)
+                  # Add a newline before new entries if the previous part didn't have one
+                  if dest_content_before_marker and not dest_content_before_marker[-1].endswith('\n'):
+                      f.write('\n')
+                  f.writelines(new_entries)
+                  f.writelines(dest_content_after_marker)
+              print(f"Successfully merged playlist into '{dest_file}'.")
+          else:
+              print("No new channels to add. File remains unchanged.")
+          EOF
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Update M3U playlist with new channels"
+          file_pattern: ${{ env.DESTINATION_M3U_FILE }}
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "GitHub Actions Bot <github-actions[bot]@users.noreply.github.com>"
