@@ -32,7 +32,7 @@ jobs:
           pip install -U requests cloudscraper
 
       - name: M3U Verilerini Getir ve Birleştir
-        run: python main.py
+        run: python kablo_rec.py
 
       - name: Değişiklik Kontrolü
         id: degisiklik_kontrol
