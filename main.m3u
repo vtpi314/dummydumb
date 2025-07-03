@@ -34,7 +34,7 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT HABER.tr" tvg-logo="http://assets.tvcdn.net/ecbd3154-e8e7-44d7-bcbd-a9bcac9df4de.png" group-title="Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="SÖZCÜ TV.tr" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV
-https://api.m3use.projectmoose.xyz/m3u/vtpi314/dummydumb/6823b21cbb6d9717bd0f16b7.m3u8?uid=vtpi314&pkey=maX3ZP
+https://api.m3use.projectmoose.xyz/m3u/vtpi314/dummydumb/67fe74f1aebedd291f7e8f60.m3u8?uid=vtpi314&pkey=maX3ZP
 #EXTINF:-1 tvg-id="SÖZCÜ TV.tr" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
 http://176.65.146.123:6004/play/a019/index.m3u8
 #EXTINF:-1 tvg-id="SÖZCÜ TV.tr" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
