@@ -3626,13 +3626,6 @@ Antik Maya'nın Kayıp Mezarları, Mayaların nasıl yaşadığına ve başları
     <desc lang="tr">Classical Harmony</desc>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/d8abc330-f38a-4a81-b555-c5fef692f63e.png"/>
   </channel>
-  <programme channel="e2545764-d74c-4678-a0c2-3d7df61302a7" start="20250720121800 +0300" stop="20250720122100 +0300">
-    <title lang="tr">Workshop of Gillis Mostaert. The Haywain Allegory of the Vanity of the World</title>
-  </programme>
-  <programme channel="e2545764-d74c-4678-a0c2-3d7df61302a7" start="20250720122100 +0300" stop="20250720122300 +0300">
-    <title lang="tr">Frans Francken the Younger
-The Cabinet of a Collector with Paintings, Shells, Coins, Fossils and Flowers</title>
-  </programme>
   <programme channel="e2545764-d74c-4678-a0c2-3d7df61302a7" start="20250720122300 +0300" stop="20250720122600 +0300">
     <title lang="tr">Leonardo da Vinci. Lady with an Ermine</title>
   </programme>
@@ -4280,7 +4273,6 @@ The Cabinet of a Collector with Paintings, Shells, Coins, Fossils and Flowers</t
   </programme>
   <programme channel="e2545764-d74c-4678-a0c2-3d7df61302a7" start="20250721001700 +0300" stop="20250721002100 +0300">
     <title lang="tr">John Ferguson Weir. Forging the Shaft</title>
-    <previously-shown/>
   </programme>
   <programme channel="e2545764-d74c-4678-a0c2-3d7df61302a7" start="20250721002100 +0300" stop="20250721002500 +0300">
     <title lang="tr">Frederic Edwin Church. Aurora Borealis</title>
@@ -5136,6 +5128,10 @@ The Cabinet of a Collector with Paintings, Shells, Coins, Fossils and Flowers</t
   </programme>
   <programme channel="e2545764-d74c-4678-a0c2-3d7df61302a7" start="20250721121900 +0300" stop="20250721122100 +0300">
     <title lang="tr">Lucas van Valckenborch. Winter (1595)</title>
+    <previously-shown/>
+  </programme>
+  <programme channel="e2545764-d74c-4678-a0c2-3d7df61302a7" start="20250721122100 +0300" stop="20250721122400 +0300">
+    <title lang="tr">Jan Brueghel the Elder. The Senses of Hearing, Touch and Taste</title>
     <previously-shown/>
   </programme>
   <channel id="b42386d3-7064-493e-8657-181947c1a520">
@@ -8391,7 +8387,6 @@ The Cabinet of a Collector with Paintings, Shells, Coins, Fossils and Flowers</t
   </programme>
   <programme channel="df867b57-0607-42d7-8e55-f4f89b59eda6" start="20250721000400 +0300" stop="20250721002300 +0300">
     <title lang="tr">Eski Bursa</title>
-    <previously-shown/>
   </programme>
   <programme channel="df867b57-0607-42d7-8e55-f4f89b59eda6" start="20250721002300 +0300" stop="20250721010000 +0300">
     <title lang="tr">Güzel Bir Yer Bursa</title>
@@ -11186,6 +11181,13 @@ The Cabinet of a Collector with Paintings, Shells, Coins, Fossils and Flowers</t
   </programme>
   <programme channel="c46a0199-2415-424f-a40f-a18375abf3a4" start="20250721121000 +0300" stop="20250721122200 +0300">
     <title lang="tr">Reporters</title>
+    <rating system="TR">
+      <value>Genel İzleyici</value>
+    </rating>
+    <previously-shown/>
+  </programme>
+  <programme channel="c46a0199-2415-424f-a40f-a18375abf3a4" start="20250721122200 +0300" stop="20250721123000 +0300">
+    <title lang="tr">Focus</title>
     <rating system="TR">
       <value>Genel İzleyici</value>
     </rating>
@@ -21244,10 +21246,6 @@ Birbirinden eğlenceli karakterler ve atasözleriyle dolu maceralar ile Gugular 
     <desc lang="tr">-</desc>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1cc6ebf5-4e01-407d-8a88-94dcdf2d5ddd.png"/>
   </channel>
-  <programme channel="57f882d4-f9f1-4b8b-b917-be0f77b06bc9" start="20250720121500 +0300" stop="20250720122100 +0300">
-    <title lang="tr">Köpek</title>
-    <desc lang="tr">Chewsocka, gerçek bir rehber köpek olabileceğini biliyor.</desc>
-  </programme>
   <programme channel="57f882d4-f9f1-4b8b-b917-be0f77b06bc9" start="20250720122100 +0300" stop="20250720122700 +0300">
     <title lang="tr">Görüntülü Arama</title>
     <desc lang="tr">Tom Thomas, laboratuvarda Simka ve Nolik ile görüntülü görüşme yapar ve Tamircik Okullarını görür.</desc>
@@ -26612,7 +26610,6 @@ In this episode - “HOLLY JOLLY STORY ”.</desc>
   </programme>
   <programme channel="637f01f5-058c-49ed-af60-cd9184895168" start="20250721001600 +0300" stop="20250721002300 +0300">
     <title lang="tr">Life Around</title>
-    <previously-shown/>
   </programme>
   <programme channel="637f01f5-058c-49ed-af60-cd9184895168" start="20250721002300 +0300" stop="20250721003000 +0300">
     <title lang="tr">Easy Talk</title>
@@ -27156,9 +27153,6 @@ In this episode - “HOLLY JOLLY STORY ”.</desc>
     <desc lang="tr">TinyTeen</desc>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1b0a8967-61ef-4066-a422-2e4eccd18ec5.png"/>
   </channel>
-  <programme channel="957ff396-e3cc-4d0a-98af-c03bc690ffe4" start="20250720121600 +0300" stop="20250720122100 +0300">
-    <title lang="tr">Art Land</title>
-  </programme>
   <programme channel="957ff396-e3cc-4d0a-98af-c03bc690ffe4" start="20250720122100 +0300" stop="20250720123000 +0300">
     <title lang="tr">English Playtime</title>
   </programme>
