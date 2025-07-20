@@ -350,7 +350,7 @@ def merge_m3u_file(target_file="main.m3u", generate_epg=True, epg_file="kablo_ep
             if 'url-tvg=' not in content:
                 lines = content.split('\n')
                 if lines[0].startswith('#EXTM3U'):
-                    lines[0] = f'#EXTM3U url-tvg="{epg_file}"'
+                    lines[0] = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/vtpi314/dummydumb/refs/heads/main/kablo_epg.xml"'
                 
                 with open(target_file, 'w', encoding='utf-8') as f:
                     f.write('\n'.join(lines))
