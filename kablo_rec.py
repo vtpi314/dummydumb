@@ -249,9 +249,9 @@ def get_rectv_data():
                 "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 12)",
             },
             json={
-                "appBuild": "81",
-                "appInstanceId": "evON8ZdeSr-0wUYxf0qs68",
-                "appId": "1:791583031279:android:1",
+                "appBuild"      : "99",
+                "appInstanceId" : "fx7f_3ndTJSg91iT8oPPI9",
+                "appId"         : "1:791583031279:android:244c3d507ab299fcabc01a",
             }
         )
         
