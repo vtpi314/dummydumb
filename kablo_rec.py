@@ -262,7 +262,10 @@ def get_rectv_data():
         # Tüm kanalları al
         all_channels = []
         page = 0
-        
+        session.headers.update({
+            'user-agent': 'Dart/3.7 (dart:io)'
+        })
+
         while True:
             url = f"{base_domain}/api/channel/by/filtres/0/0/{page}/4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452"
             response = requests.get(url, verify=False)
