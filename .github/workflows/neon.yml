@@ -6,7 +6,7 @@ on:
     - cron: "0 */6 * * *"
 
 env:
-  SOURCE_M3U_URL: "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/master/NeonSpor/NeonSpor.m3u8"
+  SOURCE_M3U_URL: "https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u"
   DESTINATION_M3U_FILE: "main.m3u"
   NEW_GROUP_TITLE: "Spor - Maç"
   START_MARKER: "# NEON_START"
