@@ -268,7 +268,7 @@ def get_rectv_data():
 
         while True:
             url = f"{base_domain}/api/channel/by/filtres/0/0/{page}/4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452"
-            response = requests.get(url, verify=False)
+            response = session.get(url, timeout=30, verify=False)
             
             if response.status_code != 200:
                 break
