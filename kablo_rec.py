@@ -8,6 +8,9 @@ from datetime import datetime
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) 
+
 def format_datetime_for_xmltv(date_str):
     """Convert Turkish date format to XMLTV format"""
     try:
