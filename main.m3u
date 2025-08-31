@@ -42,8 +42,6 @@ http://176.65.146.123:6004/play/a019/index.m3u8
 #EXTINF:-1 tvg-id="d79ec599-6c72-4add-b570-0463a621fd7c" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
 #EXTVLCOPT:http-referrer=https://limehd.tv
 https://helga.iptv2022.com/szc_tv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" referer="https://turkcanli.tv" group-title="5. |TR|🇹🇷 HABER",SÖZCÜ TV (backup)
-https://helga.iptv2022.com/szc_tv/index.m3u8
 #EXTINF:-1 tvg-id="3c0c47cd-0169-4d1b-b362-817c2a304037" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 tvg-id="8951e82b-c7ba-4977-8c00-142c542f97f1" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="Haber",Habertürk
