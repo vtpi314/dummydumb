@@ -40,7 +40,10 @@ https://api.m3use.projectmoose.xyz/m3u/vtpi314/dummydumb/67fe74f1aebedd291f7e8f6
 #EXTINF:-1 tvg-id="d79ec599-6c72-4add-b570-0463a621fd7c" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
 http://176.65.146.123:6004/play/a019/index.m3u8
 #EXTINF:-1 tvg-id="d79ec599-6c72-4add-b570-0463a621fd7c" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
-http://185.234.111.229:8000/play/a00y
+#EXTVLCOPT:http-referrer=https://limehd.tv
+https://helga.iptv2022.com/szc_tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" referer="https://turkcanli.tv" group-title="5. |TR|🇹🇷 HABER",SÖZCÜ TV (backup)
+https://helga.iptv2022.com/szc_tv/index.m3u8
 #EXTINF:-1 tvg-id="3c0c47cd-0169-4d1b-b362-817c2a304037" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 tvg-id="8951e82b-c7ba-4977-8c00-142c542f97f1" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="Haber",Habertürk
@@ -92,7 +95,7 @@ http://50.7.144.122:1935/livetv/tv8-5.stream/sec-f5-v1-a1.m3u8
 #EXTINF:-1 tvg-id="afcb4b49-f74c-4cc1-91ca-fe9640bef0a7" tvg-logo="http://assets.tvcdn.net/32da9e04-0514-4e3c-b8e1-854f1fc175ed.png" group-title="Eğlence",DMAX
 https://dogus-live.daioncdn.net/dmax/dmax.m3u8
 #EXTINF:-1 tvg-id="f762dcbb-d929-4202-b84f-d97ea3d3522a" tvg-logo="http://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png" group-title="Eğlence",TLC
-https://tlc.blutv.com/blutv_tlc_live/live.m3u8
+https://dogus-live.daioncdn.net/tlc/tlc.m3u8
 
 # NEON_START
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 1
