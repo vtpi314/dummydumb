@@ -36,12 +36,14 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="b42386d3-7064-493e-8657-181947c1a520" tvg-logo="http://assets.tvcdn.net/ecbd3154-e8e7-44d7-bcbd-a9bcac9df4de.png" group-title="Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="d79ec599-6c72-4add-b570-0463a621fd7c" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV
-https://api.m3use.projectmoose.xyz/m3u/vtpi314/dummydumb/67fe74f1aebedd291f7e8f60.m3u8?uid=vtpi314&pkey=maX3ZP
+http://78.128.125.60:9982/play/a01r/index.m3u8
 #EXTINF:-1 tvg-id="d79ec599-6c72-4add-b570-0463a621fd7c" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
 http://176.65.146.123:6004/play/a019/index.m3u8
 #EXTINF:-1 tvg-id="d79ec599-6c72-4add-b570-0463a621fd7c" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YEDEK
 #EXTVLCOPT:http-referrer=https://limehd.tv
 https://helga.iptv2022.com/szc_tv/index.m3u8
+#EXTINF:-1 tvg-id="d79ec599-6c72-4add-b570-0463a621fd7c" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - YouTube
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Sozcu_Tv.m3u8
 #EXTINF:-1 tvg-id="3c0c47cd-0169-4d1b-b362-817c2a304037" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 tvg-id="8951e82b-c7ba-4977-8c00-142c542f97f1" tvg-logo="http://assets.tvcdn.net/9fbfa842-0fff-488a-aab7-d534dbbfe8a9.png" group-title="Haber",Habertürk
