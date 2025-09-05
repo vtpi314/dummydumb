@@ -27,8 +27,6 @@ https://dogus-live.daioncdn.net/startv/startv.m3u8
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="5610a254-ef1d-44a4-94fe-74b38cc7cc2d" tvg-logo="http://assets.tvcdn.net/d7741078-ccce-47d8-ba1c-a041b659bad6.png" group-title="Ulusal",TV 100
 https://tv100-live.daioncdn.net/tv100/tv100.m3u8
-#EXTINF:-1 tvg-id="mceu" tvg-name="MC EU TV" tvg-logo="https://i.hizliresim.com/39efm4k.jpg" group-title="Ulusal",MC EU TV
-https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&output=playlist.m3u8&autostart=1
 #EXTINF:-1 tvg-id="30ce3b1c-a7cf-4049-8260-c06710fd05a5" tvg-logo="http://assets.tvcdn.net/fbaaa75c-0a2d-4ed6-b498-d32a59ddb899.png" group-title="Ulusal - Yurt Dışı",TRT Türk
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="39bd481f-a658-42df-9c5b-f5ea2e2106b5" tvg-logo="http://assets.tvcdn.net/53dd1d5f-aa72-4bea-91d0-8c2d00783367.png" group-title="Ulusal - Yurt Dışı",TRT Avaz
