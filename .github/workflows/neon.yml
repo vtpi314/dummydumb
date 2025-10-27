@@ -8,7 +8,8 @@ on:
 env:
   SOURCE_M3U_URL: "https://raw.githubusercontent.com/primatzeka/kurbaga/main/NeonSpor/NeonSpor.m3u"
   DESTINATION_M3U_FILE: "main.m3u"
-  NEW_GROUP_TITLE: "Spor - Maç"
+  NEXA_GROUP_TITLE: "Spor - Maç"
+  NEON_GROUP_TITLE: "Spor - Maç"
   START_MARKER: "# NEON_START"
   END_MARKER: "# NEON_END"
 
@@ -21,20 +22,83 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install Python dependencies
+        run: |
+          pip install httpx --break-system-packages
+
       - name: Download external M3U file
         run: |
           curl -L -o external_playlist.m3u "${{ env.SOURCE_M3U_URL }}"
           echo "External M3U file downloaded."
 
-      - name: Rebuild Remote Content Block
+      - name: Rebuild Remote Content Block with Nexa and Neon
         run: |
           python3 <<'EOF'
           import os
           import re
+          from httpx import Client
 
+          # ============== NexaTVManager Class ==============
+          class NexaTVManager:
+              def __init__(self, group_title="NexaTV"):
+                  self.proxy_prefix = "http://proxylendim101010.mywire.org/proxy.php?url="
+                  self.base_stream_url = "https://andro.okan9gote10sokan.cfd/checklist/"
+                  self.logo_url = "https://i.hizliresim.com/8xzjgqv.jpg"
+                  self.group_title = group_title
+                  self.channels = [
+                      {"name": "TR:Bein Sports 1 HD", "path": "androstreamlivebein1.m3u8"},
+                      {"name": "TR:Bein Sports 2 HD", "path": "androstreamlivebein2.m3u8"},
+                      {"name": "TR:Bein Sports 3 HD", "path": "androstreamlivebein3.m3u8"},
+                      {"name": "TR:Bein Sports 4 HD", "path": "androstreamlivebein4.m3u8"},
+                      {"name": "TR:Bein Sports 5 HD", "path": "androstreamlivebein5.m3u8"},
+                      {"name": "TR:Bein Sports Max 1 HD", "path": "androstreamlivebm1.m3u8"},
+                      {"name": "TR:Bein Sports Max 2 HD", "path": "androstreamlivebm2.m3u8"},
+                      {"name": "TR:S Sport 1 HD", "path": "androstreamlivess1.m3u8"},
+                      {"name": "TR:S Sport 2 HD", "path": "androstreamlivess2.m3u8"},
+                      {"name": "TR:Tivibu Sport HD", "path": "androstreamlivets.m3u8"},
+                      {"name": "TR:Tivibu Sport 1 HD", "path": "androstreamlivets1.m3u8"},
+                      {"name": "TR:Tivibu Sport 2 HD", "path": "androstreamlivets2.m3u8"},
+                      {"name": "TR:Tivibu Sport 3 HD", "path": "androstreamlivets3.m3u8"},
+                      {"name": "TR:Tivibu Sport 4 HD", "path": "androstreamlivets4.m3u8"},
+                      {"name": "TR:Smart Sport 1 HD", "path": "androstreamlivesm1.m3u8"},
+                      {"name": "TR:Smart Sport 2 HD", "path": "androstreamlivesm2.m3u8"},
+                      {"name": "TR:Euro Sport 1 HD", "path": "androstreamlivees1.m3u8"},
+                      {"name": "TR:Euro Sport 2 HD", "path": "androstreamlivees2.m3u8"},
+                      {"name": "TR:Tabii HD", "path": "androstreamlivetb.m3u8"},
+                      {"name": "TR:Tabii 1 HD", "path": "androstreamlivetb1.m3u8"},
+                      {"name": "TR:Tabii 2 HD", "path": "androstreamlivetb2.m3u8"},
+                      {"name": "TR:Tabii 3 HD", "path": "androstreamlivetb3.m3u8"},
+                      {"name": "TR:Tabii 4 HD", "path": "androstreamlivetb4.m3u8"},
+                      {"name": "TR:Tabii 5 HD", "path": "androstreamlivetb5.m3u8"},
+                      {"name": "TR:Tabii 6 HD", "path": "androstreamlivetb6.m3u8"},
+                      {"name": "TR:Tabii 7 HD", "path": "androstreamlivetb7.m3u8"},
+                      {"name": "TR:Tabii 8 HD", "path": "androstreamlivetb8.m3u8"},
+                      {"name": "TR:Exxen HD", "path": "androstreamliveexn.m3u8"},
+                      {"name": "TR:Exxen 1 HD", "path": "androstreamliveexn1.m3u8"},
+                      {"name": "TR:Exxen 2 HD", "path": "androstreamliveexn2.m3u8"},
+                      {"name": "TR:Exxen 3 HD", "path": "androstreamliveexn3.m3u8"},
+                      {"name": "TR:Exxen 4 HD", "path": "androstreamliveexn4.m3u8"},
+                      {"name": "TR:Exxen 5 HD", "path": "androstreamliveexn5.m3u8"},
+                      {"name": "TR:Exxen 6 HD", "path": "androstreamliveexn6.m3u8"},
+                      {"name": "TR:Exxen 7 HD", "path": "androstreamliveexn7.m3u8"},
+                  ]
+
+              def calistir(self):
+                  m3u = []
+                  for channel in self.channels:
+                      real_url = f"{self.base_stream_url}{channel['path']}"
+                      stream_url = f"{self.proxy_prefix}{real_url}"
+                      m3u.append(f'#EXTINF:-1 tvg-id="sport.tr" tvg-name="{channel["name"]}" tvg-logo="{self.logo_url}" group-title="{self.group_title}",{channel["name"]}')
+                      m3u.append(stream_url)
+                  content = "\n".join(m3u)
+                  print(f"NexaTV içerik uzunluğu: {len(content)}")
+                  return content
+
+          # ============== Main Processing ==============
           dest_file = os.getenv('DESTINATION_M3U_FILE')
           remote_file = 'external_playlist.m3u'
-          new_group_title = os.getenv('NEW_GROUP_TITLE')
+          nexa_group_title = os.getenv('NEXA_GROUP_TITLE')
+          neon_group_title = os.getenv('NEON_GROUP_TITLE')
           start_marker = os.getenv('START_MARKER')
           end_marker = os.getenv('END_MARKER')
 
@@ -65,8 +129,15 @@ jobs:
               print(f"File '{dest_file}' not found. Will create it.")
               content_before.append('#EXTM3U\n')
 
-          # --- Step 2: Process the remote file, preserving multi-line entries ---
-          new_remote_entries = []
+          # --- Step 2: Get Nexa channels ---
+          print("Processing Nexa channels...")
+          nexa_manager = NexaTVManager(group_title=nexa_group_title)
+          nexa_content = nexa_manager.calistir()
+          nexa_entries = [line + '\n' for line in nexa_content.split('\n') if line.strip()]
+
+          # --- Step 3: Process the Neon remote file, preserving multi-line entries ---
+          print("Processing Neon channels...")
+          neon_entries = []
           try:
               with open(remote_file, 'r', encoding='utf-8') as f:
                   lines = f.readlines()
@@ -83,7 +154,7 @@ jobs:
                   # Modify the group-title in the #EXTINF line
                   extinf_line = line.strip()
                   group_title_pattern = re.compile(r'group-title="[^"]*"')
-                  new_attribute = f'group-title="{new_group_title}"'
+                  new_attribute = f'group-title="{neon_group_title}"'
                   if group_title_pattern.search(extinf_line):
                       modified_extinf = group_title_pattern.sub(new_attribute, extinf_line)
                   else:
@@ -101,30 +172,33 @@ jobs:
                           break
                       i += 1
                   
-                  new_remote_entries.extend(entry_block)
+                  neon_entries.extend(entry_block)
               i += 1
           
-          print(f"Processed remote source and prepared new content block.")
+          print(f"Processed Neon source and prepared new content block.")
 
-          # --- Step 3: Write the final file from the parts ---
+          # --- Step 4: Combine Nexa and Neon entries (Nexa first) ---
+          combined_entries = nexa_entries + neon_entries
+
+          # --- Step 5: Write the final file from the parts ---
           with open(dest_file, 'w', encoding='utf-8') as f:
               f.writelines(content_before)
               if content_before and not content_before[-1].endswith('\n'):
                   f.write('\n')
               f.write(f"{start_marker}\n")
-              f.writelines(new_remote_entries)
-              if new_remote_entries and not new_remote_entries[-1].endswith('\n'):
+              f.writelines(combined_entries)
+              if combined_entries and not combined_entries[-1].endswith('\n'):
                   f.write('\n')
               f.write(f"{end_marker}\n")
               f.writelines(content_after)
           
-          print(f"Successfully rebuilt the M3U file '{dest_file}'.")
+          print(f"Successfully rebuilt the M3U file '{dest_file}' with Nexa and Neon channels.")
           EOF
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update spor category"
+          commit_message: "Update spor category with Nexa and Neon channels"
           file_pattern: ${{ env.DESTINATION_M3U_FILE }}
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
