@@ -112,44 +112,114 @@ https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
 https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master.m3u8
 
 # NEON_START
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Bein Sports 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivebein1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Bein Sports 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivebein2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 3 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Bein Sports 3 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivebein3.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 4 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Bein Sports 4 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivebein4.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 5 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Bein Sports 5 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivebein5.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports Max 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Bein Sports Max 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivebm1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports Max 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Bein Sports Max 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivebm2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sport 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:S Sport 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivess1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sport 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:S Sport 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivess2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sport HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tivibu Sport HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivets.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sport 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tivibu Sport 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivets1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sport 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tivibu Sport 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivets2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sport 3 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tivibu Sport 3 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivets3.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tivibu Sport 4 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tivibu Sport 4 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivets4.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Smart Sport 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Smart Sport 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivesm1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Smart Sport 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Smart Sport 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivesm2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Euro Sport 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Euro Sport 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivees1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Euro Sport 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Euro Sport 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivees2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 3 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 3 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb3.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 4 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 4 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb4.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 5 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 5 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb5.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 6 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 6 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb6.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 7 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 7 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb7.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Tabii 8 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Tabii 8 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamlivetb8.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 1 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen 1 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 2 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen 2 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 3 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen 3 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn3.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 4 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen 4 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn4.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 5 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen 5 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn5.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 6 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen 6 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn6.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Exxen 7 HD" tvg-logo="https://i.postimg.cc/jd1FPW1j/Logo-Nexa-TV-removebg-preview.png" group-title="Spor - Maç",TR:Exxen 7 HD
+https://ndksjdnl.site/playback/proxy.m3u8?url=https://cdn-trmn.androstream.site/stream/androstreamliveexn7.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinzirve.m3u8
+https://yildiz.zirvedesin25.sbs/yayinzirve.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 1 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 1 Yedek
 https://aged-fire-dd6b.freelinks.workers.dev/https://fener2.demoscript.buzz/hls/bein-sports-1.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-2-logo-56F85DDE25-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinb2.m3u8
+https://yildiz.zirvedesin25.sbs/yayinb2.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 2 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-2-logo-56F85DDE25-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 2 Yedek
 https://aged-fire-dd6b.freelinks.workers.dev/https://fener2.demoscript.buzz/hls/bein-sports-2.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 3" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-3-logo-42227D7D66-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinb3.m3u8
+https://yildiz.zirvedesin25.sbs/yayinb3.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 3 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-3-logo-42227D7D66-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 3 Yedek
 https://aged-fire-dd6b.freelinks.workers.dev/https://fener2.demoscript.buzz/hls/bein-sports-3.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 4" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/cww8drm.png" group-title="Spor - Maç",BeIN Sport 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinb4.m3u8
+https://yildiz.zirvedesin25.sbs/yayinb4.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 4 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/cww8drm.png" group-title="Spor - Maç",BeIN Sport 4 Yedek
 https://aged-fire-dd6b.freelinks.workers.dev/https://fener2.demoscript.buzz/hls/bein-sports-4.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 5" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/63gjk4y.png" group-title="Spor - Maç",BeIN Sport 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinb5.m3u8
+https://yildiz.zirvedesin25.sbs/yayinb5.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png" group-title="Spor - Maç",BeIN Sport MAX 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinbm1.m3u8
+https://yildiz.zirvedesin25.sbs/yayinbm1.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 1 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png" group-title="Spor - Maç",BeIN Sport MAX 1 Yedek
 http://rhsbjv7k.tvclub.xyz/iptv/VEXVELA6Z7PXH6/6824/index.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568" group-title="Spor - Maç",BeIN Sport MAX 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinbm2.m3u8
+https://yildiz.zirvedesin25.sbs/yayinbm2.m3u8
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 2 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568" group-title="Spor - Maç",BeIN Sport MAX 2 Yedek
 http://rhsbjv7k.tvclub.xyz/iptv/VEXVELA6Z7PXH6/19066/index.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43023.jpeg" group-title="Spor - Maç",Tabii Spor
@@ -170,66 +240,66 @@ https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
 https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ssport" tvg-name="S Sport" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f0f167c1-f2b1-41d0-9713-75c315820713.png" group-title="Spor - Maç",S Sport 1
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinss.m3u8
+https://yildiz.zirvedesin25.sbs/yayinss.m3u8
 #EXTINF:-1 tvg-id="ssport" tvg-name="S Sport 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80f415bc-60e4-4dd9-8dc6-6e51d88f6abb.png" group-title="Spor - Maç",S Sport 2
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinss2.m3u8
+https://yildiz.zirvedesin25.sbs/yayinss2.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex1.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex1.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex2.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex2.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 3" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex3.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex3.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 4" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex4.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex4.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 5" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex5.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex5.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 6" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex6.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex6.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 7" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex7.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex7.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 8" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinex8.m3u8
+https://yildiz.zirvedesin25.sbs/yayinex8.m3u8
 #EXTINF:-1 tvg-id="spor_smart" tvg-name="Spor Smart 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://image.milimaj.com/i/milliyet/75/869x477/61013bfb86b24419fc684867.jpg" group-title="Spor - Maç",Spor Smart 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinsmarts.m3u8
+https://yildiz.zirvedesin25.sbs/yayinsmarts.m3u8
 #EXTINF:-1 tvg-id="spor_smart" tvg-name="Spor Smart 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://image.milimaj.com/i/milliyet/75/869x477/61013bfb86b24419fc684867.jpg" group-title="Spor - Maç",Spor Smart 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayinsms2.m3u8
+https://yildiz.zirvedesin25.sbs/yayinsms2.m3u8
 #EXTINF:-1 tvg-id="tivibu_spor" tvg-name="Tivibu Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/3/36/Tivibu_spor_logosu.jpg" group-title="Spor - Maç",Tivibu Spor 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayint1.m3u8
+https://yildiz.zirvedesin25.sbs/yayint1.m3u8
 #EXTINF:-1 tvg-id="tivibu_spor" tvg-name="Tivibu Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/3/36/Tivibu_spor_logosu.jpg" group-title="Spor - Maç",Tivibu Spor 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayint2.m3u8
+https://yildiz.zirvedesin25.sbs/yayint2.m3u8
 #EXTINF:-1 tvg-id="tivibu_spor" tvg-name="Tivibu Spor 3" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/3/36/Tivibu_spor_logosu.jpg" group-title="Spor - Maç",Tivibu Spor 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv524.com/
-https://kodiaq.zirvedesin24.sbs/yayint3.m3u8
+https://yildiz.zirvedesin25.sbs/yayint3.m3u8
 #EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Trt1" tvg-logo="https://cms-rotf-api.tabii.com/r/int/w500/23846_1-0-465-262.jpeg" group-title="Spor - Maç", TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT SPOR" tvg-language="Turkish" tvg-country="TR" tvg-id="TrtSpor" tvg-logo="https://cms-rotf-api.tabii.com/r/int/w500/40480_0-0-465-261.jpeg" group-title="Spor - Maç", TRT SPOR
-http://stream.tvcdn.net/spor/trt-spor.m3u8
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="trtsporyildiz" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/23855_1-0-465-262.jpeg" group-title="Spor - Maç",TRT Spor Yıldız
 https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 #EXTINF:-1 tvg-name="TV 8" tvg-language="Turkish" tvg-country="TR" tvg-id="tv8" tvg-logo="https://www.campaigntr.com/wp-content/uploads/2014/09/tv8-logo.png" group-title="Spor - Maç",TV 8
