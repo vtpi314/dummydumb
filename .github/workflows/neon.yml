@@ -15,6 +15,9 @@ env:
 
 jobs:
   sync-playlist-block:
+    strategy:
+      matrix:
+        branch: [main, master]
     runs-on: ubuntu-latest
     permissions:
       contents: write
