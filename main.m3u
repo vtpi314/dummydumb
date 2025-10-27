@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/vtpi314/dummydumb/refs/heads/main/kablo_epg.xml"
+#EXTM3U
 #EXTINF:-1 tvg-id="061332c2-d69c-4605-a760-0e2a8274697c" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="3639c98f-f795-40cb-a4b3-8feb4de05d33" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="Ulusal",Now TV
