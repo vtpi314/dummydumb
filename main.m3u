@@ -94,6 +94,22 @@ http://50.7.144.122:1935/livetv/tv8-5.stream/sec-f5-v1-a1.m3u8
 https://dogus-live.daioncdn.net/dmax/dmax.m3u8
 #EXTINF:-1 tvg-id="f762dcbb-d929-4202-b84f-d97ea3d3522a" tvg-logo="http://assets.tvcdn.net/9871d781-b961-45cc-a287-c304f02bef1d.png" group-title="Eğlence",TLC
 https://dogus-live.daioncdn.net/tlc/tlc.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43023.jpeg" group-title="Spor",Tabii Spor
+https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor1" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43005.jpeg" group-title="Spor",Tabii Spor 1
+https://iaqzu4szhtzeqd0edpsayinle.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 2" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor2" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43008.jpeg" group-title="Spor",Tabii Spor 2
+https://klublsslubcgyiz7zqt5bz8il.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 3" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor3" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43011.jpeg" group-title="Spor",Tabii Spor 3
+https://ujnf69op16x2fiiywxcnx41q8.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 4" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor4" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43014.jpeg" group-title="Spor",Tabii Spor 4
+https://bfxy3jgeydpbphtk8qfqwm3hr.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 5" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor5" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43017.jpeg" group-title="Spor",Tabii Spor 5
+https://z3mmimwz148csv0vaxtphqspf.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 6" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor6" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43020.jpeg" group-title="Spor",Tabii Spor 6
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="Tabii Spor 7" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor7" tvg-logo="https://cms-rotf-api.tabii.com/r/int/w500/51612_0-0-1919-1080.jpeg" group-title="Spor",Tabii Spor 7
+https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master.m3u8
 
 # NEON_START
 #EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://seeklogo.com/images/B/bein-sports-1-logo-4E5E4AE6B8-seeklogo.com.png" group-title="Spor - Maç",BeIN Sport 1
@@ -253,28 +269,23 @@ http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
 
 #EXTINF:-1 tvg-id="beIN SPORTS HABER.tr" tvg-logo="http://assets.tvcdn.net/9177b1f3-4eee-4215-b304-7c76ee2d0c7a.png" group-title="Spor",beIN Sports Haber
 https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Bein_Spor_Haber.m3u8
+#EXTINF:-1 tvg-name="TRT SPOR" tvg-language="Turkish" tvg-country="TR" tvg-id="TrtSpor" tvg-logo="https://cms-rotf-api.tabii.com/r/int/w500/40480_0-0-465-261.jpeg" group-title="Spor", TRT SPOR
+https://trt.daioncdn.net/trtspor/master.m3u8?app=web
+#EXTINF:-1 tvg-name="TRT Spor Yıldız" tvg-language="Turkish" tvg-country="TR" tvg-id="trtsporyildiz" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/23855_1-0-465-262.jpeg" group-title="Spor",TRT Spor Yıldız
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Y4tR1tTm/Ekolsports.jpg",EKOL SPORTS
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1 tvg-id="FB TV.tr" tvg-logo="http://assets.tvcdn.net/bf46ecf5-390b-42d0-8599-8b48b23f3bc8.png" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TJK TV.tr" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
 http://tjktv.ercdn.net/tjktv.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5rhmw31628798883.png" group-title="Spor",Sports 1
-http://95.174.71.114:80/TR-BEINSPORT1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/7uv6x71628799003.png" group-title="Spor",Sports 2
-http://95.174.71.114:80/TR-BEINSPORT2/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/u3117i1628798857.png" group-title="Spor",Sports 3
-http://95.174.71.114:80/TR-BEINSPORT3/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/2ktmcp1628798841.png" group-title="Spor",Sports 4
-http://95.174.71.114:80/TR-BEINSPORT4/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Spor",Tivibu Spor
 https://uzunmuhalefet.serv00.net/canlitv2.php?id=12843&.m3u8
 
 #EXTINF:-1 tvg-id="TRT MÜZİK.tr" tvg-logo="http://assets.tvcdn.net/e9efa31e-106b-40e0-ab4e-a760061c7ad6.png" group-title="Müzik",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRT BELGESEL.tr" tvg-logo="http://assets.tvcdn.net/1da7293b-5598-4e00-a5f8-3bd327af9467.png" group-title="Belgesel",TRT Belgesel
-http://stream.tvcdn.net/belgesel/trt-belgesel.m3u8
+https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TGRTBelgesel.tr" tvg-logo="http://assets.tvcdn.net/c6c727a2-b2be-4d9b-a32c-48ffa778cbb6.png" group-title="Belgesel",TGRT Belgesel
 https://tgrt-live.ercdn.net/tgrtbelgesel/tgrtbelgesel.m3u8
 #EXTINF:-1 tvg-id="Yaban.tr" tvg-logo="http://assets.tvcdn.net/808e5d06-f9a6-4989-ac8c-63f686e61ea0.png" group-title="Belgesel",Yaban TV
