@@ -106,20 +106,20 @@ https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
 https://rxnE77JupTdEYKE3TytvGQWYh.medya.trt.com.tr/master.m3u8
 
 # NEON_START
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 1 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:Bein Sports 1 HD
-https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebein1.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 2 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:Bein Sports 2 HD
-https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebein2.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 3 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:Bein Sports 3 HD
-https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebein3.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 4 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:Bein Sports 4 HD
-https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebein4.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports 5 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:Bein Sports 5 HD
-https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebein5.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports Max 1 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:Bein Sports Max 1 HD
-https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebm1.m3u8
-#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:Bein Sports Max 2 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:Bein Sports Max 2 HD
-https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebm2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 1 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:beIN Sport 1 HD
+https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 2 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:beIN Sport 2 HD
+https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 3 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:beIN Sport 3 HD
+https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebs3.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 4 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:beIN Sport 4 HD
+https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport 5 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:beIN Sport 5 HD
+https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebs5.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport Max 1 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:beIN Sport Max 1 HD
+https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebsm1.m3u8
+#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:beIN Sport Max 2 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:beIN Sport Max 2 HD
+https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivebsm2.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sport 1 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:S Sport 1 HD
 https://api.codetabs.com/v1/proxy/?quest=https://andro.okan9gote10sokan.cfd/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:S Sport 2 HD" tvg-logo="https://i.hizliresim.com/8xzjgqv.jpg" group-title="Spor - Maç",TR:S Sport 2 HD
