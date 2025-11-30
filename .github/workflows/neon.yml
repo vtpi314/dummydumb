@@ -46,13 +46,13 @@ jobs:
                   self.logo_url = "https://i.hizliresim.com/8xzjgqv.jpg"
                   self.group_title = group_title
                   self.channels = [
-                      {"name": "TR:Bein Sports 1 HD", "path": "androstreamlivebein1.m3u8"},
-                      {"name": "TR:Bein Sports 2 HD", "path": "androstreamlivebein2.m3u8"},
-                      {"name": "TR:Bein Sports 3 HD", "path": "androstreamlivebein3.m3u8"},
-                      {"name": "TR:Bein Sports 4 HD", "path": "androstreamlivebein4.m3u8"},
-                      {"name": "TR:Bein Sports 5 HD", "path": "androstreamlivebein5.m3u8"},
-                      {"name": "TR:Bein Sports Max 1 HD", "path": "androstreamlivebm1.m3u8"},
-                      {"name": "TR:Bein Sports Max 2 HD", "path": "androstreamlivebm2.m3u8"},
+                      {"name": "TR:beIN Sport 1 HD", "path": "androstreamlivebs1.m3u8"},
+                      {"name": "TR:beIN Sport 2 HD", "path": "androstreamlivebs2.m3u8"},
+                      {"name": "TR:beIN Sport 3 HD", "path": "androstreamlivebs3.m3u8"},
+                      {"name": "TR:beIN Sport 4 HD", "path": "androstreamlivebs4.m3u8"},
+                      {"name": "TR:beIN Sport 5 HD", "path": "androstreamlivebs5.m3u8"},
+                      {"name": "TR:beIN Sport Max 1 HD", "path": "androstreamlivebsm1.m3u8"},
+                      {"name": "TR:beIN Sport Max 2 HD", "path": "androstreamlivebsm2.m3u8"},
                       {"name": "TR:S Sport 1 HD", "path": "androstreamlivess1.m3u8"},
                       {"name": "TR:S Sport 2 HD", "path": "androstreamlivess2.m3u8"},
                       {"name": "TR:Tivibu Sport HD", "path": "androstreamlivets.m3u8"},
