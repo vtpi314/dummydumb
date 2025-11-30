@@ -41,7 +41,7 @@ jobs:
           # ============== NexaTVManager Class ==============
           class NexaTVManager:
               def __init__(self, group_title="NexaTV"):
-                  self.proxy_prefix = "http://proxylendim101010.mywire.org/proxy.php?url="
+                  self.proxy_prefix = "https://api.codetabs.com/v1/proxy/?quest="
                   self.base_stream_url = "https://andro.okan9gote10sokan.cfd/checklist/"
                   self.logo_url = "https://i.hizliresim.com/8xzjgqv.jpg"
                   self.group_title = group_title
