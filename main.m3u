@@ -232,6 +232,9 @@ https://k4e.zirvedesin120.cfd/yayinss.m3u8
 #EXTINF:-1 tvg-id="ssport" tvg-name="S Sport 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/80f415bc-60e4-4dd9-8dc6-6e51d88f6abb.png" group-title="Spor - Maç",S Sport 2
 #EXTVLCOPT:http-referrer=https://monotv529.com/
 https://k4e.zirvedesin120.cfd/yayinss2.m3u8
+#EXTINF:-1 tvg-id="ssport" tvg-name="S Sport Plus" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/qioouyh.png" group-title="Spor - Maç",S Sport Plus
+#EXTVLCOPT:http-referrer=https://monotv529.com/
+https://k4e.zirvedesin120.cfd/yayinex1.m3u8
 #EXTINF:-1 tvg-id="exxenspor" tvg-name="Exxen Spor 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/ioxh9th.png" group-title="Spor - Maç",Exxen Spor 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://monotv529.com/
