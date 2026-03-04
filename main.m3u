@@ -292,6 +292,8 @@ https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=bf58ab52-4865-4c81-b223-26b4
 https://zeustv32342.info/xatv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="A Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="aspor" tvg-logo="https://bursasporxcom.teimg.com/crop/1280x720/bursasporx-com/uploads/2024/10/imaj-aspor.jpg" group-title="Spor - Maç", A Spor
 https://zeustv32342.info/xaspor/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="A Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="ahaber" tvg-logo="https://play-lh.googleusercontent.com/pT42M09UJOnDJ0zF7FjVQJBC7DZ1ovUDN8-lHBpGrbZGAohwmrIbpl67BX5nnEbw2Jw=w600-h300-pc0xffffff-pd" group-title="Spor - Maç", A Haber
+https://zeustv32342.info/xahaber/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="HTSpor" tvg-language="Turkish" tvg-country="TR" tvg-id="htspor" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Spor - Maç", HTSpor
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 #EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="showtv" tvg-logo="https://mo.ciner.com.tr/video/2023/06/15/ver1726038663/8E1C90B3C04F89681637C4909149450C_640x360.jpg" group-title="Spor - Maç",Show TV
