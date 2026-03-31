@@ -192,21 +192,21 @@ https://zeustv432423.info/b3/tracks-v1a1/mono.ts.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://justintv.co/
 https://andro.1286503.xyz/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 4" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/cww8drm.png" group-title="Spor - Maç",BeIN Sport 4
+#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 4" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/nmb701u.jpg" group-title="Spor - Maç",BeIN Sport 4
 https://zeustv432423.info/b4/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 4 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/cww8drm.png" group-title="Spor - Maç",BeIN Sport 4 Yedek
+#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 4 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/nmb701u.jpg" group-title="Spor - Maç",BeIN Sport 4 Yedek
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://justintv.co/
 https://andro.1286503.xyz/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 5" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/63gjk4y.png" group-title="Spor - Maç",BeIN Sport 5
+#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 5" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/p1vnt5w.jpg" group-title="Spor - Maç",BeIN Sport 5
 https://zeustv432423.info/b5/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 5 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/63gjk4y.png" group-title="Spor - Maç",BeIN Sport 5 Yedek
+#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport 5 Yedek" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/p1vnt5w.jpg" group-title="Spor - Maç",BeIN Sport 5 Yedek
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://justintv.co/
 https://andro.1286503.xyz/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png" group-title="Spor - Maç",BeIN Sport MAX 1
+#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/k6ic0s7.jpg" group-title="Spor - Maç",BeIN Sport MAX 1
 https://zeustv432423.info/b1max/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://tvprofil.com/img/kanali-logo/beIN_Sports_MAX_2_TR_logo_v2.png?1734011568" group-title="Spor - Maç",BeIN Sport MAX 2
+#EXTINF:-1 tvg-id="bein_sport" tvg-name="BeIN Sport MAX 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/6hd9e27.jpg" group-title="Spor - Maç",BeIN Sport MAX 2
 https://zeustv432423.info/b2max/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="Tabii Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="TabiiSpor" tvg-logo="https://cms-tabii-public-image.tabii.com/int/w500/43023.jpeg" group-title="Spor - Maç",Tabii Spor
 https://beert7sqimrk0bfdupfgn6qew.medya.trt.com.tr/master.m3u8
@@ -264,9 +264,9 @@ https://andro.1286503.xyz/checklist/androstreamliveexn7.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://justintv.co/
 https://andro.1286503.xyz/checklist/androstreamliveexn8.m3u8
-#EXTINF:-1 tvg-id="spor_smart" tvg-name="Spor Smart 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://image.milimaj.com/i/milliyet/75/869x477/61013bfb86b24419fc684867.jpg" group-title="Spor - Maç",Spor Smart 1
+#EXTINF:-1 tvg-id="spor_smart" tvg-name="Spor Smart 1" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/a8c6ywb.jpg" group-title="Spor - Maç",Spor Smart 1
 https://zeustv432423.info/smart1/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="spor_smart" tvg-name="Spor Smart 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://image.milimaj.com/i/milliyet/75/869x477/61013bfb86b24419fc684867.jpg" group-title="Spor - Maç",Spor Smart 2
+#EXTINF:-1 tvg-id="spor_smart" tvg-name="Spor Smart 2" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://i.hizliresim.com/a8c6ywb.jpg" group-title="Spor - Maç",Spor Smart 2
 https://zeustv432423.info/smart2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tivibu_spor" tvg-name="Tivibu Spor" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/3/36/Tivibu_spor_logosu.jpg" group-title="Spor - Maç",Tivibu Spor
 https://zeustv432423.info/tivibu/tracks-v1a1/mono.ts.m3u8
@@ -286,16 +286,12 @@ https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 #EXTINF:-1 tvg-name="TV 8" tvg-language="Turkish" tvg-country="TR" tvg-id="tv8" tvg-logo="https://www.campaigntr.com/wp-content/uploads/2014/09/tv8-logo.png" group-title="Spor - Maç",TV 8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
-#EXTINF:-1 tvg-name="TV 8.5" tvg-language="Turkish" tvg-country="TR" tvg-id="tv8bucuk" tvg-logo="https://www.tvchecklist/akisi.com/wp-content/uploads/2021/01/tv8.5.jpg" group-title="Spor - Maç", TV 8.5
+#EXTINF:-1 tvg-name="TV 8.5" tvg-language="Turkish" tvg-country="TR" tvg-id="tv8bucuk" tvg-logo="https://i.hizliresim.com/6bynxdm.jpg" group-title="Spor - Maç", TV 8.5
 https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
 #EXTINF:-1 tvg-name="Atv" tvg-language="Turkish" tvg-country="TR" tvg-id="atv" tvg-logo="https://i.hizliresim.com/sl35dyd.jpg" group-title="Spor - Maç", Atv
 https://zeustv432423.info/xatv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="A Spor" tvg-language="Turkish" tvg-country="TR" tvg-id="aspor" tvg-logo="https://bursasporxcom.teimg.com/crop/1280x720/bursasporx-com/uploads/2024/10/imaj-aspor.jpg" group-title="Spor - Maç", A Spor
 https://zeustv432423.info/xaspor/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-name="A Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="ahaber" tvg-logo="https://play-lh.googleusercontent.com/pT42M09UJOnDJ0zF7FjVQJBC7DZ1ovUDN8-lHBpGrbZGAohwmrIbpl67BX5nnEbw2Jw=w600-h300-pc0xffffff-pd" group-title="Spor - Maç", A Haber
-https://zeustv432423.info/xahaber/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-name="HTSpor" tvg-language="Turkish" tvg-country="TR" tvg-id="htspor" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="Spor - Maç", HTSpor
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 #EXTINF:-1 tvg-name="Show TV" tvg-language="Turkish" tvg-country="TR" tvg-id="showtv" tvg-logo="https://mo.ciner.com.tr/video/2023/06/15/ver1726038663/8E1C90B3C04F89681637C4909149450C_640x360.jpg" group-title="Spor - Maç",Show TV
 https://ciner.daioncdn.net/showtv/showtv.m3u8?app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
 # NEON_END
