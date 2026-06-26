@@ -22,6 +22,8 @@ jobs:
         run: |
           pip install playwright
           playwright install chromium
+      - name: List files (Debugging)
+        run: ls -la
 
       - name: Run stream scraper
         run: python szc.py
