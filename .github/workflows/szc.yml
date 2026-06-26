@@ -1,0 +1,35 @@
+name: Auto-Update M3U Stream
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' 
+  workflow_dispatch: 
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium
+
+      - name: Run stream scraper
+        run: python scraper.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add main.m3u
+          git commit -m "Auto-update SZC TV stream token" || echo "No changes to commit"
+          git push
