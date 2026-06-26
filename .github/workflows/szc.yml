@@ -24,7 +24,7 @@ jobs:
           playwright install chromium
 
       - name: Run stream scraper
-        run: python scraper.py
+        run: python szc.py
 
       - name: Commit and push changes
         run: |
