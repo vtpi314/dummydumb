@@ -32,7 +32,7 @@ https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTHaber.tr" tvg-logo="http://assets.tvcdn.net/ecbd3154-e8e7-44d7-bcbd-a9bcac9df4de.png" group-title="Haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="SozcuTV.tr" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV 
-https://dsmart-new-live.ercdn.net/sozcutv/sozcutv360p_2.m3u8?dvr=20m&userid=ed0&rid=6a16dfabaf230f6d5d7b500a45bb5730&st=J7l8jDy8OscOTF_ng9Mirg&e=1782556000&
+http://89.144.20.132:8080/sozcutv.m3u8
 #EXTINF:-1 tvg-id="SozcuTV.tr" tvg-logo="http://assets.tvcdn.net/491384df-7154-4404-8f97-2e7847655441.png" group-title="Haber",Sözcü TV - Youtube  
 https://raw.githubusercontent.com/tecotv2025/youtube-canli/refs/heads/main/streams/sozcutelevizyonu.m3u8
 #EXTINF:-1 tvg-id="HalkTV.tr" tvg-logo="http://assets.tvcdn.net/f0bcd016-8730-4700-9156-d6b678f8e554.png" group-title="Haber",Halk TV
